@@ -1,0 +1,44 @@
+// {
+//   "name": "restaurant-project01",
+//   "version": "0.1.0",
+//   "private": true,
+//   "scripts": {
+//     "start": "python3 -m http.server 8000",
+//     "gulp": "gulp",
+//     "minify": "gulp minify"
+//   },
+//   "devDependencies": {
+//     "babel-preset-es2015": "^6.24.1",
+//     "babel-register": "^6.26.0",
+//     "del": "^3.0.0",
+//     "gulp": "^3.9.1",
+//     "gulp-responsive": "^2.11.0",
+//     "run-sequence": "^2.2.1",
+//     "sharp": "^0.20.5"
+//   },
+//   "dependencies": {
+//     "package-name": "^0.1.0"
+//   }
+// }
+
+{
+  "name": "restaurant-reviews-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "gulp": "gulp"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-responsive": "^2.11.0",
+    "run-sequence": "^2.2.1",
+    "sharp": "^0.20.5"
+  },
+  "dependencies": {
+    "package-name": "^0.1.0"
+  }
+}
