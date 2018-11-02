@@ -70,7 +70,7 @@ nav h1 a {
   text-transform: uppercase;
 }
 #breadcrumb {
-  padding: 10px 40px 10px;
+  /* padding: 10px 40px 10px; */
   list-style: none;
   background-color: #eee;
   font-size: 10px;
