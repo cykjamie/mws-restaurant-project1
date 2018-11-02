@@ -177,5 +177,14 @@ class DBHelper {
     return marker;
   } */
 
+  static mapOffline() {
+    const map = document.getElementById('map');
+    map.className = "map-offline";
+    map.innerHTML = `<div class="warning-icon">!</div>
+    <div class="warning-message">We're having problems loading Maps</div>
+    <div class="warning-suggestion">Are you offline? If you need to see a map, please check back later.</div>`;
+  }
+  
+
 }
 
