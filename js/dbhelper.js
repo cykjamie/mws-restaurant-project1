@@ -153,11 +153,7 @@ class DBHelper {
     return (`/img/${restaurant.photograph}`);
   }
 
-  /**
-   * Map marker for a restaurant.
-   */
-   static mapMarkerForRestaurant(restaurant, map) {
-    // https://leafletjs.com/reference-1.3.0.html#marker  
+    static mapMarkerForRestaurant(restaurant, map) {
     const marker = new L.marker([restaurant.latlng.lat, restaurant.latlng.lng],
       {title: restaurant.name,
       alt: restaurant.name,
@@ -166,16 +162,6 @@ class DBHelper {
       marker.addTo(newMap);
     return marker;
   } 
-  /* static mapMarkerForRestaurant(restaurant, map) {
-    const marker = new google.maps.Marker({
-      position: restaurant.latlng,
-      title: restaurant.name,
-      url: DBHelper.urlForRestaurant(restaurant),
-      map: map,
-      animation: google.maps.Animation.DROP}
-    );
-    return marker;
-  } */
 
   static mapOffline() {
     const map = document.getElementById('map');
@@ -184,7 +170,5 @@ class DBHelper {
     <div class="warning-message">We're having problems loading Maps</div>
     <div class="warning-suggestion">Are you offline? If you need to see a map, please check back later.</div>`;
   }
-  
-
 }
 
